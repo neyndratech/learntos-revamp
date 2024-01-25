@@ -1,0 +1,44 @@
+.carousel-item {
+    min-height: 70vh;
+}
+
+.carousel-item img {
+    min-height: 70vh;
+    background-size: cover;
+}
+
+.carousel-indicators {
+    position: relative;
+    top: -15vh;
+}
+
+.carousel-content {
+    text-align: left;
+}
+
+@media (max-width:768px) {
+    .carousel-indicators {
+        display: none;
+    }
+    .carousel-content {
+        text-align: center;
+    }
+}
+
+@media (min-width:1440px) {
+    .carousel-content {
+        position: relative;
+        top: -70vh;
+    }
+    .carousel-content Button {
+        padding: 1%;
+    }
+    .carousel-indicators {
+        top: -70vh;
+    }
+    .carousel-indicators Button {
+        margin: 0% 5%;
+        padding: 1% 5%;
+        width: auto;
+    }
+}
