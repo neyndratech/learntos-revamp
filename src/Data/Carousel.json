@@ -1,0 +1,27 @@
+{
+    "entries": [{
+            "imagelink": "https://cognizant.scene7.com/is/image/cognizant/hp-deep-green-hero-banner-desktop",
+            "link": "https://example.com/page1",
+            "header": "Entry 1",
+            "paragraph": "This is the first entry. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        {
+            "imagelink": "https://cognizant.scene7.com/is/image/cognizant/hp-davos-hero-banner-desktop",
+            "link": "https://example.com/page2",
+            "header": "Entry 2",
+            "paragraph": "This is the second entry. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+            "imagelink": "https://www.cognizant.com/content/dam/connectedassets/cognizant-global-marketing/marketing-channels/cognizant-dotcom/en_us/homepage/images/hp-gen-ai-reinventing-hero-banner-desktop.jpg",
+            "link": "https://example.com/page3",
+            "header": "Entry 3",
+            "paragraph": "This is the third entry. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "imagelink": "https://cognizant.scene7.com/is/image/cognizant/hp-deep-green-hero-banner-desktop",
+            "link": "https://example.com/page4",
+            "header": "Entry 4",
+            "paragraph": "This is the fourth entry. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        }
+    ]
+}
