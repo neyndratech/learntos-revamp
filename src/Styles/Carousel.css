@@ -16,6 +16,37 @@
     text-align: left;
 }
 
+.indicator-active {
+    text-decoration: none;
+    color: white;
+}
+
+.indicator-active::after {
+    text-decoration: none;
+    background: #ffffff;
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100%;
+    transform: scalex(1);
+    transition: transform 0.2s ease;
+}
+
+.indicator {
+    text-decoration: none;
+    color: #ffffff95;
+}
+
+.indicator::after {
+    text-decoration: none;
+    background: #ffffff4d;
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100%;
+    transform: scale(0);
+}
+
 @media (max-width:768px) {
     .carousel-indicators {
         display: none;

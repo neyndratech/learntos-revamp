@@ -1,0 +1,48 @@
+.dropdown-menu {
+    text-align: center;
+    min-width: 100vh;
+}
+
+.Nav-Links {
+    text-decoration: none;
+    margin: 1% 5%;
+    display: inline-block;
+    min-width: 100%;
+    width: auto;
+    padding: 1% 3%;
+    color: rgba(255, 255, 255, 0.69);
+}
+
+.Nav-Links.active {
+    text-decoration: none;
+    color: white;
+}
+
+.Nav-Links.active::after {
+    background: #ffffff;
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100%;
+    color: white;
+}
+
+.Links {
+    text-decoration: none;
+}
+
+.Navbar-links {
+    display: flex;
+    justify-content: left;
+}
+
+.Navbar-collapse {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width:1000px) {
+    .nav-links {
+        display: none;
+    }
+}
